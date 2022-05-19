@@ -1,0 +1,11 @@
+Model Information:
+* title:	Magic crystals
+* source:	https://sketchfab.com/3d-models/magic-crystals-f20b3376ef9a4dff8ad27f1402087c52
+* author:	Enn Shtyka (https://sketchfab.com/enn_shtyka)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Magic crystals" (https://sketchfab.com/3d-models/magic-crystals-f20b3376ef9a4dff8ad27f1402087c52) by Enn Shtyka (https://sketchfab.com/enn_shtyka) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
