@@ -2,7 +2,7 @@
 
 I have created a Metaverse that allow users to broswer with VR Headset. Moreover,users able to buy, sell and own NFT by using Three.js, Smart Contracts in Solidity and NFT Tokens
 
-screeshot:
+Screeshot:
 
 <img width="1424" alt="WX20220520-172050@2x" src="https://user-images.githubusercontent.com/95536900/169612141-2cfc5a10-73b8-49ec-9132-c213b88a07ac.png">
 
