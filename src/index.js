@@ -30,16 +30,16 @@ renderer.xr.enabled = true;
 let controls = new OrbitControls(camera, renderer.domElement);
 
 // Setting the scene lights
-const ambient_light = new THREE.AmbientLight(0xffffff, 1);
-const direction_light = new THREE.DirectionalLight(0xffffff, 1);
-direction_light.position.set(10, 120, 122);
+const ambient_light = new THREE.AmbientLight(0xffffff, 0.8);
+const direction_light = new THREE.DirectionalLight(0xebd7d3, 0.3);
+direction_light.position.set(0, 0, 0);
 direction_light.target.position.set(0, 0, 0);
 ambient_light.add(direction_light);
 scene.add(ambient_light);
 
 //point light
-const Point_Light = new THREE.PointLight(0xffffff, 1.0);
-Point_Light.position.set(30, 30, 30);
+const Point_Light = new THREE.PointLight(0xdb5424, 1.5);
+Point_Light.position.set(30, 100, 30);
 scene.add(Point_Light);
 
 //Rect Light
@@ -91,7 +91,7 @@ loader.load("../models/sky/scene.gltf", function (gltf) {
 loader.load("../models/dragon/scene.gltf", function (gltf) {
   scene.add(gltf.scene);
   let dragon = gltf.scene.children[0];
-  dragon.position.set(-600, -70, -200);
+  dragon.position.set(-400, -60, -100);
   dragon.scale.set(15, 15, 15);
   dragon.rotation.set(Math.PI / -2, 0, 0);
 });
@@ -201,7 +201,7 @@ function profitNFT() {
 
 // Web3 connection to the data generated in the blockchain to be
 // represented in the Metaverse
-blockchain.then((result) => {
+const NFT = blockchain.then((result) => {
   // For each building paid for in the Smart Contract,
   // a graphical representation is made in the Metaverse
   result.building.forEach((building, index) => {
@@ -212,7 +212,10 @@ blockchain.then((result) => {
         // building.h,
         // building.d
       );
-      const boxMaterial = new THREE.MeshPhongMaterial({ color: 0xf0c993 });
+      const boxMaterial = new THREE.MeshPhongMaterial({
+        color: 0xe3d534,
+        specular: 0x050505,
+      });
       const nft = new THREE.Mesh(boxGeometry, boxMaterial);
       nft.position.set(building.x, building.y, building.z);
       scene.add(nft);
