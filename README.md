@@ -1,6 +1,6 @@
 # Stackathon
 
-I have created a Metaverse that allow users to buy, sell and own NFT by using Three.js, Smart Contracts in Solidity and NFT Tokens
+I have created a Metaverse that allow users to broswer with VR Headset. Moreover,users able to buy, sell and own NFT by using Three.js, Smart Contracts in Solidity and NFT Tokens
 
 screeshot:
 
