@@ -44,7 +44,7 @@ scene.add(Point_Light);
 
 //Rect Light
 const width = 2.0;
-const height = 20.0;
+const height = 10.0;
 const RectLight = new THREE.RectAreaLight(0xffffff, 1.0, width, height);
 RectLight.position.set(100, 10, 0);
 RectLight.lookAt(0, 0, 0);
@@ -52,18 +52,11 @@ scene.add(RectLight);
 
 //Loading Screen
 const loadingManager = new THREE.LoadingManager();
-loadingManager.onStart = function (url, item, total) {
-  console.log(`started loading:${url}`);
-};
-
 const progressBar = document.getElementById("progress-bar");
-
 loadingManager.onProgress = function (url, loaded, total) {
   progressBar.value = (loaded / total) * 100;
 };
-
 const progressBarContainer = document.querySelector(".progress-bar-container");
-
 loadingManager.onLoad = function () {
   progressBarContainer.style.display = "none";
 };
@@ -114,9 +107,18 @@ loader.load("../models/dragon/scene.gltf", function (gltf) {
   dragon.rotation.set(Math.PI / -2, 0, 0);
 });
 
+//angel
+loader.load("../models/angel/scene.gltf", function (gltf) {
+  scene.add(gltf.scene);
+  let angel = gltf.scene.children[0];
+  angel.position.set(120, -30, 20);
+  angel.scale.set(1.3, 1.3, 1.3);
+  angel.rotation.set(Math.PI / -2, 0, 2.3);
+});
+
 window.addEventListener("resize", onWindowResize);
 
-camera.position.set(250, 10, 0);
+camera.position.set(0, 10, -33);
 
 function animate() {
   renderer.setAnimationLoop(render);
