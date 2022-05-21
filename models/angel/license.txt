@@ -1,0 +1,11 @@
+Model Information:
+* title:	Angel - Tilt Brush
+* source:	https://sketchfab.com/3d-models/angel-tilt-brush-48b2042cc4184a5f9b5ccc6c24743b1a
+* author:	3Donimus (https://sketchfab.com/3Donimus)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Angel - Tilt Brush" (https://sketchfab.com/3d-models/angel-tilt-brush-48b2042cc4184a5f9b5ccc6c24743b1a) by 3Donimus (https://sketchfab.com/3Donimus) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
