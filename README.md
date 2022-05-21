@@ -21,3 +21,6 @@ This work is based on "Magic Ring - Yellow" (https://sketchfab.com/3d-models/mag
 
 5. Flying Island:
 This work is based on "Flying world - Battle of the Trash god" (https://sketchfab.com/3d-models/flying-world-battle-of-the-trash-god-350a9b2fac4c4430b883898e7d3c431f) by burunduk (https://sketchfab.com/burunduk) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+
+6. Angel:
+This work is based on "Angel - Tilt Brush" (https://sketchfab.com/3d-models/angel-tilt-brush-48b2042cc4184a5f9b5ccc6c24743b1a) by 3Donimus (https://sketchfab.com/3Donimus) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
